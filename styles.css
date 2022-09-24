@@ -1,0 +1,25 @@
+button {
+        width: 80;
+        height: 80;
+        font-size: 25;
+        border: solid;
+}
+      
+.textinput {
+        width: 590;
+        height: 50;
+        font-size: 25;
+        color: #43d995;
+}
+      
+.main {
+        position: absolute;
+        background: linear-gradient(lightblue);
+}
+</script>
+<style>h2 
+{border-bottom: 1px solid #ebebeb;
+color: #474747;font-size: 1.3em;
+font-weight: normal;line-height: 130%;
+}.frms{margin:0 auto;padding:10px;-moz-border-radius:.3em;-webkit-border-radius:.3em;-o-border-radius:.3em;font-family:Tahoma, Geneva, sans-serif;color:#333;font-size:.9em;line-height:1.2em;}.frms input[type="text"],[type="password"],[type="file"],textarea,select{width:99%;background:#fff;border:#ddd 1px solid;border-radius:.35em;-moz-border-radius:.35em;-webkit-border-radius:.35em;-o-border-radius:.35em;padding:0 .5%;margin-top:5px;margin-bottom:15px;height:35px;}.frms input:hover,textarea:hover,select:hover{box-shadow:#dae1e5 0px 0px 5px;-moz-box-shadow:#dae1e5 0px 0px 5px;-webkit-box-shadow:#dae1e5 0px 0px 5px;-o-box-shadow:#dae1e5 0px 0px 5px;}.frms input:focus,textarea:focus,select:focus{-webkit-box-shadow: inset 7px 4px 7px -7px rgba(0,0,0,0.42);-moz-box-shadow: inset 7px 4px 7px -7px rgba(0,0,0,0.42);box-shadow: inset 7px 4px 7px -7px rgba(0,0,0,0.42);border:#9d9983 1px solid;}.frms input[type="submit"],input[type="reset"],input[type="button"],button,.yellow_button,.blue_button{padding:7px 14px;font-weight:bold;color:#fff;cursor:pointer;border-radius:.3em;-moz-border-radius:.2em;-webkit-border-radius:.2em;-o-border-radius:.2em;margin:10px 0;border:none;}.frms input[type="submit"]{background:#75ab22;border-bottom:#629826 3px solid;text-shadow:#396e12 1px 1px 0px;}.frms input[type="reset"]{background:#ee765d;border-bottom:#d95e44 3px solid;text-shadow:#8c3736 1px 1px 0px;}input[type="button"],button,.blue_button{background:#468cd2;border-bottom:#3277bc 3px solid;text-shadow:#214d73 1px 1px 0px;}.frms label{font-size:1.2em;}.resp_code{margin:5px 10px 10px 300px;padding:10px 20px 10px 20px;font:normal 1em/1.3em Tahoma, Geneva, sans-serif;color:#333;background:#f8f8f8;border:#ddd 1px solid;border-radius:.25em;overflow:auto;width:50%;}@media screen and (max-width: 480px){.resp_code{width:auto !important;margin:0px !important;}.frms label{font-size:0.9em;}}
+</style>

@@ -1,0 +1,80 @@
+<html>
+<head>
+  <meta charset="utf-8">
+ 
+  <title>JavaScript function to add two complex numbers</title>
+  </head>
+ 
+<body>
+ 
+<h1>output of two complex number:</h1>
+ 
+<h4 id="add"></h4>
+ 
+</body>
+ 
+<script>
+ 
+function Complex(real1, imaginary1) {
+ 
+  this.real1 = 0;
+ 
+  this.imaginary1 = 0;
+ 
+  this.real1 = (typeof real1 === 'undefined') ? this.real1 : parseFloat(real1);
+ 
+  this.imaginary1 = (typeof imaginary1 === 'undefined') ? this.imaginary1 : parseFloat(imaginary1);
+ 
+}
+ 
+Complex.transform = function(num) {
+ 
+  var complex;
+ 
+  complex = (num instanceof Complex) ? num : complex;
+ 
+  complex = (typeof num === 'number') ? new Complex(num, 0) : num;
+ 
+  return complex;
+ 
+};
+ 
+function display_complex(re, im) {
+ 
+  if(im === '0') return '' + re;
+ 
+  if(re === 0) return '' + im + 'i';
+ 
+  if(im < 0) return '' + re + im + 'i';
+ 
+  return '' + re + '+' + im + 'i';
+ 
+}
+ 
+function complex_num_add(first, second) {
+ 
+  var num1, num2;
+ 
+  num1 = Complex.transform(first);
+ 
+  num2 = Complex.transform(second);
+ 
+  var real1 = num1.real1 + num2.real1;
+ 
+  var imaginary1 = num1.imaginary1 + num2.imaginary1;
+ 
+  return display_complex(real1, imaginary1);
+ 
+}
+ 
+ var a = Enter the a value: <input type="text" name="a"> <br><br>
+ 
+ var b = Enter the b value: <input type="text" name="b"> <br><br>
+ 
+console.log(complex_num_add(a,b));
+ 
+document.getElementById('add').innerHTML=complex_num_add(a,b);
+ 
+</script>
+ 
+</html>

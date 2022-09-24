@@ -1,0 +1,43 @@
+<style>
+*{padding:0;
+margin:0;
+}
+body {text-align:center;
+background-color:#637ACB;
+}
+#heading {margin-top:30px;}
+#form_wrapper {width:405px;
+height:450px;
+margin:30px auto auto 420px;
+background-color:#000;
+text-align:center;
+border-radius:10px;
+border-right:2px groove #333;
+box-shadow:4px 4px 2px #666666;}
+
+#formone{padding-top:10px;}
+
+#display {width:380px;
+height:40px;
+font-size:18px;
+color:black;
+margin:4px;
+border:2px inset black;
+border-bottom:1px inset #FFF;
+border-right:1px inset #FFF;
+background-color:#D5F192;}
+
+.button {width:60px;
+height:60px;
+margin:1px;}
+
+.number {font-size:16px;
+font-weight:bold;}
+
+.opps {font-size:18px;}
+
+.three {font-weight:bold;
+background-color:#FBB9A8;
+}
+.three:hover{background-color:#F66;}
+</style>

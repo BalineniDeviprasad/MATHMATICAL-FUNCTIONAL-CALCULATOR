@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <script src="script1.js"></script>
+
+<body>
+<body bgcolor="lightyellow">
+<center><h2><i>Statistics Calculator</i></h2></center>
+
+    Mean: <input type="text"
+    id="meanText" ><br><br>
+    Median:<input type="text"
+    id="medianText" ><br><br>
+    Mode:<input type="text"
+    id="modeText" >
+    <br><br>
+  Mean = <p id="meanOutput"></p>
+   Median = <p id="medianOutput"></p>
+    Mode =<p id="modeOutput"></p>
+    
+
+
+
+    <button onclick="mean(document.getElementById('meanText').value); median(document.getElementById('medianText').value); mode(document.getElementById('modeText').value);">Calculate</button>
+</body>
+</html>
