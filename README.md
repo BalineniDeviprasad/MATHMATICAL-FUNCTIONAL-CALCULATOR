@@ -8,3 +8,6 @@ many of the features are the same. If your calculator is NOT a scientific calcul
 does NOT follow order of operations and calculates the result in the order in which 
 the entries were made. In this case, you will not get a correct answer so you will have 
 to adjust how you enter the values.
+
+
+Any Dougts regarding the Project contact me through the mail :  deviprasad9528@gmail.com
